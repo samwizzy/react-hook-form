@@ -1,0 +1,75 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.container {
+  min-width: 768px;
+  margin: 0 auto;
+}
+
+form {
+  width: 350px;
+  padding: 8px;
+  margin: 8px auto;
+  border: 1px solid #eee
+}
+
+input {
+  display: block;
+  min-width: 100%;
+  padding: 8px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  outline: none;
+  border: 1px solid #bbb;
+  border-radius: 4px;
+}
+
+.btn {
+  outline: none;
+  border: 1px solid transparent;
+  padding: 8px 16px;
+  cursor: pointer;
+  border-radius: 4px;
+  font-weight: 900;
+  margin-top: 8px; 
+  color: #555
+}
+
+.close {
+  outline: none;
+  border: 1px solid transparent;
+  padding: 2px;
+  cursor: pointer;
+  border-radius: 50px;
+  font-weight: 900;
+  color: #555
+}
+
+button:hover {
+  color: #222
+}
+
+.w-full {
+  width: 100%
+}
+
+.flex {
+  display: flex
+}
+
+.item-center {
+  align-items: center;
+}
+
+.grid {
+  display: grid;
+  grid-column-gap: 10px;
+  grid-template-columns: auto 50px;
+}
+
+.grid-col {
+  /* grid-column: 2; */
+}
+
